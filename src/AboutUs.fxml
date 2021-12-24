@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="677.0" prefWidth="1030.0" style="-fx-background-color: b1620e;" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Home.Controller.ACController">
+   <children>
+      <ImageView fitHeight="141.0" fitWidth="135.0" layoutX="194.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@tree-creative.png" />
+         </image>
+      </ImageView>
+      <Text fill="#079405" layoutX="380.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Institute of Imaginations">
+         <font>
+            <Font name="Bell MT Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="#f8030c" layoutX="272.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learners OASIS">
+         <font>
+            <Font name="Bell MT Bold" size="53.0" />
+         </font>
+      </Text>
+      <Label layoutX="110.0" layoutY="188.0" text="About Us:" textFill="#f8030c" underline="true">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="495.0" layoutY="616.0" mnemonicParsing="false" onAction="#LoadMain" prefHeight="46.0" prefWidth="98.0" style="-fx-background-color: #08207f;" text="Back" textAlignment="JUSTIFY" textFill="#f5f6f8" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <TextArea layoutX="216.0" layoutY="217.0" prefHeight="185.0" prefWidth="582.0" style="-fx-background-color: grey;" stylesheets="@Style.css" text="The Learning Institute provides opportunities for individuals and &#10;communities through high quality education, training and &#10;research programmes that challenge personal barriers and promote &#10;social inclusion.&#10;We believe learning should be informed by research, guided by ethics &#10;and committed to communities.">
+         <font>
+            <Font name="Bodoni MT" size="19.0" />
+         </font>
+      </TextArea>
+      <Label layoutX="199.0" layoutY="496.0" text="Contact Us:" textFill="#f8030c" underline="true">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="203.0" layoutY="535.0" prefHeight="30.0" prefWidth="106.0" text="Address: " textFill="#f8030c" underline="true">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="306.0" layoutY="537.0" prefHeight="26.0" prefWidth="319.0" text="House no 58 Street no 6 E11/4 Islamabad" textFill="#079405">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="203.0" layoutY="578.0" prefHeight="30.0" prefWidth="106.0" text="Phone #:" textFill="#f8030c" underline="true">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="306.0" layoutY="580.0" prefHeight="26.0" prefWidth="304.0" text="0312-7867206" textFill="#079405">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
